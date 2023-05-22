@@ -38,36 +38,36 @@
     <div class="container">
         <h1 class="text-center">Formulario del Curso de Informatica 2023</h1>
         <div class="row justify-content-center">
-            <form action="/TAREACRUD.PHP/controladores/alumnos/guardar.php" method="POST" class="col-lg-8 border bg-light p-3">
+            <form action="/TAREACRUD.PHP/controladores/insumos/guardar.php" method="POST" class="col-lg-8 border bg-light p-3">
                 <div class="row mb-3">
                     <div class="col">
-                        <label for="alum_nom">Nombre</label>
-                        <input type="text" name="alum_nom" id="alum_nom" class="form-control" placeholder="Juan">
+                        <label for="nombre_insumo">Nombre del Insumo</label>
+                        <input type="text" name="nombre_insumo" id="nombre_insumo" class="form-control" placeholder="Juan">
                     </div>
                 </div>
                 <div class="row mb-3">
                     <div class="col">
-                        <label for="alum_apelli">Apellido</label>
-                        <input type="text" name="alum_apelli" id="alum_apelli" class="form-control" placeholder="Perez" >
+                        <label for="existencia">Cantidad en Existencia</label>
+                        <input type="number" name="existencia" id="existencia" class="form-control" placeholder="Perez" >
                     </div>
                 </div>
                 <div class="row mb-3">
                     <div class="col">
-                        <label for="alum_fecha_naci">Fecha de nacimiento</label>
-                        <input type="text" name="alum_fecha_naci" id="alum_fecha_naci" class="form-control" placeholder="03 de Julio de 1994" >
+                        <label for="marca_producto">Marca del Producto</label>
+                        <input type="text" name="marca_producto" id="marca_producto" class="form-control" placeholder="03 de Julio de 1994" >
                     </div>
                 </div>
                 <div class="row mb-3">
                     <div class="col">
-                        <label for="alum_tel">Numero de Telefono</label>
-                        <input type="number" name="alum_tel" id="alum_tel" class="form-control" placeholder="64883344" >
+                        <label for="nombre_proveedor">Nombre del Proveedor</label>
+                        <input type="text" name="nombre_proveedor" id="nombre_proveedor" class="form-control" placeholder="64883344" >
 
                     </div>
                 </div>
                 <div class="row mb-3">
                     <div class="col">
-                        <label for="alum_correo">Correo electronico</label>
-                        <input type="email" name="alum_correo" id="alum_correo" class="form-control" placeholder="ejemplo@gmail.com" >
+                        <label for="precio_insumo">Precio del Insumo</label>
+                        <input type="number" name="precio_insumo" id="precio_insumo" class="form-control" placeholder="ejemplo@gmail.com" >
                     </div>
                 </div>
                 <div class="row mb-3">
