@@ -1,5 +1,5 @@
 <?php
-require 'Conexion.php';
+require 'conexion.php';
 
 class insumos extends Conexion{
     public $insumo_id;
