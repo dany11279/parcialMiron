@@ -42,32 +42,32 @@
                 <div class="row mb-3">
                     <div class="col">
                         <label for="nombre_insumo">Nombre del Insumo</label>
-                        <input type="text" name="nombre_insumo" id="nombre_insumo" class="form-control" placeholder="Juan">
+                        <input type="text" name="nombre_insumo" id="nombre_insumo" class="form-control" placeholder="Insumo">
                     </div>
                 </div>
                 <div class="row mb-3">
                     <div class="col">
                         <label for="existencia">Cantidad en Existencia</label>
-                        <input type="number" name="existencia" id="existencia" class="form-control" placeholder="Perez" >
+                        <input type="number" name="existencia" id="existencia" class="form-control" placeholder="10" >
                     </div>
                 </div>
                 <div class="row mb-3">
                     <div class="col">
                         <label for="marca_producto">Marca del Producto</label>
-                        <input type="text" name="marca_producto" id="marca_producto" class="form-control" placeholder="03 de Julio de 1994" >
+                        <input type="text" name="marca_producto" id="marca_producto" class="form-control" placeholder="marca patito" >
                     </div>
                 </div>
                 <div class="row mb-3">
                     <div class="col">
                         <label for="nombre_proveedor">Nombre del Proveedor</label>
-                        <input type="text" name="nombre_proveedor" id="nombre_proveedor" class="form-control" placeholder="64883344" >
+                        <input type="text" name="nombre_proveedor" id="nombre_proveedor" class="form-control" placeholder="software" >
 
                     </div>
                 </div>
                 <div class="row mb-3">
                     <div class="col">
                         <label for="precio_insumo">Precio del Insumo</label>
-                        <input type="number" name="precio_insumo" id="precio_insumo" class="form-control" placeholder="ejemplo@gmail.com" >
+                        <input type="number" name="precio_insumo" id="precio_insumo" class="form-control" placeholder="180" >
                     </div>
                 </div>
                 <div class="row mb-3">
