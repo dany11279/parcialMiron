@@ -1,27 +1,27 @@
 <?php
 require 'Conexion.php';
 
-class alumnos extends Conexion{
-    public $alum_id;
-    public $alum_nom;
-    public $alum_apelli;
-    public $alum_fecha_naci;
-    public $alum_tel;
-    public $alum_correo;
+class insumos extends Conexion{
+    public $insumo_id;
+    public $nombre_insumo;
+    public $existencia;
+    public $marca_producto;
+    public $nombre_proveedor;
+    public $precio_insumo;
 
 
     public function __construct($args = [] )
     {
         $this->alum_id = $args['alum_id'] ?? null;
-        $this->alum_nom = $args['alum_nom'] ?? '';
-        $this->alum_apelli = $args['alum_apelli'] ?? '';
-        $this->alum_fecha_naci = $args['alum_fecha_naci'] ?? '';
-        $this->alum_tel = $args['alum_tel'] ?? '';
-        $this->alum_correo = $args['alum_correo'] ?? '';
+        $this->nombre_insumo = $args['nombre_insumo'] ?? '';
+        $this->existencia = $args['existencia'] ?? '';
+        $this->marca_producto = $args['marca_producto'] ?? '';
+        $this->nombre_proveedor = $args['nombre_proveedor'] ?? '';
+        $this->precio_insumo = $args['precio_insumo'] ?? '';
     }
 
     public function guardar(){
-        $sql = "INSERT INTO alumnos(alum_nom, alum_apelli, alum_fecha_naci, alum_tel, alum_correo) values('$this->alum_nom', '$this->alum_apelli', '$this->alum_fecha_naci', '$this->alum_tel', '$this->alum_correo')";
+        $sql = "INSERT INTO insumos(nombre_insumo, existencia, marca_producto, nombre_proveedor, precio_insumo) values('$this->nombre_insumo', '$this->existencia', '$this->marca_producto', '$this->nombre_proveedor', '$this->precio_insumo')";
         $resultado = self::ejecutar($sql);
         return $resultado;
     }
